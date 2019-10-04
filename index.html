@@ -12,14 +12,14 @@
   <div class="stackedit__html"><h2 id="welcome-to-sdm2020-weakly-supervised-and-unsupervised-learning-workshop">Welcome to SDM2020 Weakly-supervised and Unsupervised Learning Workshop</h2>
 <h1 id="topic-summary">Topic Summary</h1>
 <p>Modern data mining is migrating to the era of complex models (e.g., deep neural networks), which require a plethora of data to train. However, most existing data mining algorithms rely heavily on supervisory label information. As dataset sizes grow bigger, obtaining labels is becoming more and more laborious and expensive. Giant companies have enough money to collect well-annotated data. However, for startups or non-profit organizations, such data is barely acquirable due to the cost of labeling data or the intrinsic scarcity in the given domain. These practical issues motivate us to research and pay attention to weakly-supervised and unsupervised learning (WSUL), since that it does not require such a huge amount of annotated data and that it is relatively easy to collect a large amount of unannotated data. We therefore propose a workshop for researchers from different fields of data mining that face this problem to discuss this issue and foster further research advances in this direction.</p>
-<p>We define WSUL as the collection of data mining problem settings and algorithms that share the similar goals as supervised data mining but can only access to <strong>less or even no supervised information</strong> than supervised data mining.<br>
+<p>We define WSUL as the collection of learning problem settings and algorithms that share the similar goals as supervised learning but can only access to <strong>less or even no supervised information</strong> than supervised learning.<br>
 In this workshop, we discuss both theoretical and applied aspects of WSUL, which includes but not limited to the following topics:</p>
 <ul>
 <li>Theories, algorithms, and applications of  <strong>no supervision</strong>, e.g., clustering, generative adversarial nets, variational autoencoders;</li>
 <li>Theories, algorithms, and applications of <strong>incomplete supervision</strong>, e.g., dealing with semi-supervised data or positive-unlabeled data;</li>
 <li>Theories, algorithms, and applications of <strong>inexact supervision</strong>, e.g., dealing with similarity/dissimilarity data and complementary information;</li>
 <li>Theories, algorithms, and applications of <strong>inaccurate supervision</strong>, e.g., crowdsourcing and dealing with noisy labels;</li>
-<li>Theories, algorithms, and applications of <strong>cross-domain supervision</strong>, e.g., domain adaptation and zero-/one-/few-shot learning;</li>
+<li>Theories, algorithms, and applications of <strong>cross-domain supervision</strong>, e.g., domain adaptation and zero-/one-/few-shot learning.</li>
 </ul>
 <p>The focus of this workshop is five types of supervision: no supervision, incomplete supervision, inexact supervision, inaccurate supervision, and cross-domain supervision. Specifically, no supervision considers problems in which no data have ground-truth labels. Incomplete supervision considers a subset of training data given with ground-truth labels while the other data remain unlabeled, such as semi-supervised data and positive-unlabeled data. Inexact supervision considers the situation where some supervision information is given but not as exacted as desired, i.e., only coarse-grained labels are available. For example, if we are considering to classify every pixel of an image, rather than the image itself, then ImageNet becomes a benchmark with inexact supervision. Besides, the multi-instance learning setting belongs to inexact supervision, where we do not exactly know which instance in the bag corresponds to the given ground-truth label. Inaccurate supervision considers the situation where the supervision information is not always the ground-truth, such as learning with noisy labels. Cross-domain supervision considers the situation where the supervision information is scarce or even non-existent in the current domain but can be possibly derived from other domains. Examples of cross-domain supervision appear in zero-/one-/few-shot learning, where external knowledge from other domains is usually used to overcome the problem of too few or even no supervision in the original domain.</p>
 <p>This workshop will discuss the fundamental theories of weakly-supervised and unsupervised learning. Although theories of statistical weakly-supervised and unsupervised learning already exist, extending these results for deep weakly-supervised and unsupervised learning is still a challenge. Besides, this workshop also discusses on broad applications of weakly-supervised and unsupervised learning, such as mining text, web &amp; social media, analyzing finance data, genomics &amp; bioinformatics, and recommendation.</p>
@@ -140,7 +140,7 @@ In this workshop, we discuss both theoretical and applied aspects of WSUL, which
 </tr>
 <tr>
 <td></td>
-<td><strong>Speaker</strong>: TBD</td>
+<td><strong>Speaker</strong>: Zhangyang Wang, (Texas A&amp;M University)</td>
 </tr>
 <tr>
 <td>16:30-16:40</td>
@@ -187,7 +187,7 @@ In this workshop, we discuss both theoretical and applied aspects of WSUL, which
 <p>The target audience consists of researchers and practitioners who are working or interested in the problems, theories, algorithms, and applications in the area of weakly supervised and unsupervised data mining. The attendees of SDM2020 are the major audience of the proposed workshop. We will also distribution the call-for-workshop-paper information to attract attendees from a broad spectrum of related communities.</p>
 <h1 id="list-of-potential-participants">List of Potential Participants</h1>
 <p>Mingming Gong (University of Melbourne)<br>
-Chunyuan Li (Microsoft Research)<br>
+Chunyuan Li (Microsoft Research Redmond)<br>
 Tongliang Liu (University of Sydney)<br>
 Bo Han (RIKEN-AIP / HKBU)<br>
 Quanming Yao (4Paradigm)<br>
@@ -196,7 +196,8 @@ Kun Zhang (Carnegie Mellon University)<br>
 Masashi Sugiyama (RIKEN-AIP / University of Tokyo)<br>
 Lingfei Wu (IBM T. J. Watson Research Center)<br>
 Kayhan Batmanghelich (University of Pittsburgh)<br>
-Jiayu Zhou (Michigan State University)</p>
+Jiayu Zhou (Michigan State University)<br>
+Zhangyang Wang (Texas A&amp;M University)</p>
 <h1 id="previous-workshops">Previous Workshops</h1>
 <p>Partial organizers are organizing a weakly-supervised learning workshop in Asian Conference on Machine Learning (ACML) 2019: <a href="https://wsl-workshop.github.io/">https://wsl-workshop.github.io/</a>. Meanwhile, they have successfully raised 6000 USD to support several awards in this workshop. The number of attendees and paper submissions is around 30-40 in local ACML conference; while they believe that in global conference SDM, they can call more attendees and paper submissions. Besides, they have sufficient experience to organize and propagate this workshop, which can also enhance the academic and social impact of SDM conference.</p>
 <h1 id="organizers-contact-details">Organizers Contact Details</h1>
@@ -250,7 +251,7 @@ Jiayu Zhou (Michigan State University)</p>
 </ul>
 <h1 id="organizers--bio">Organizers  Bio</h1>
 <p><a href="https://mingming-gong.github.io/">Mingming Gong</a>, University of Melbourne, Australia.<br>
-Mingming Gong is a Lecturer (Assistant Professor) in data science with the School of Mathematics and Statistics, University of Melbourne. His research interests include causal inference, machine learning, and visual analytics. He has authored and co-authored 30+ research papers including NeurIPS, ICML, UAI, AISTATS, CVPR, ICCV, ECCV, and AAAI. Gong has studied how the causal generative process of data benefit learning in non-standard settings, such as transfer learning and weakly-supervised learning. He also studies principles and methods to infer causal models from various kinds of observational data, including under-sampled time series, data with measurement error, nonstationary and heterogeneous data.</p>
+Mingming Gong is a Lecturer (Assistant Professor) in data science with the School of Mathematics and Statistics, University of Melbourne. His research interests include causal inference, machine learning, and visual analytics. He has authored and co-authored 30+ research papers including NeurIPS, ICML, UAI, AISTATS, CVPR, ICCV, ECCV, and AAAI. Gong has studied how the causal generative process of data benefit learning in non-standard settings, such as weakly-supervised learning and transfer learning . He also studies principles and methods to infer causal models from various kinds of observational data, including under-sampled time series, data with measurement error, nonstationary and heterogeneous data.</p>
 <p><a href="http://chunyuan.li/">Chunyuan Li</a>, Microsoft Research Redmond, USA.<br>
 Chunyuan Li is a senior researcher with Microsoft Research, Redmomd. He received his Ph.D. degree from Duke University. His interests are deep learning and probabilistic modeling, with applications to natural language processing and computer vision. The results are published in 40+ papers, e.g., NeurIPS, ICML, ICLR, CVPR, AISTATS, ACL and EMNLP.</p>
 <p><a href="https://tongliang-liu.github.io/">Tongliang Liu</a>, University of Sydney, Australia.<br>
